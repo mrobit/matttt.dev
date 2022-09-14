@@ -1,0 +1,7 @@
+.site-name {
+  font-size: clamp(1.75rem, 8vw, 6.25rem);
+}
+
+.sun {
+  box-shadow: 2px 2px 30px 1px theme('colors.orange.700');
+}
