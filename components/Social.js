@@ -4,6 +4,7 @@ function Link({ url, title }) {
       <a
         className="text-slate-600 hover:text-white focus-visible:text-white transition-all"
         href={url}
+        rel={"noreferrer"}
         target={"_blank"}
       >
         {title}
@@ -11,11 +12,11 @@ function Link({ url, title }) {
     </li>
   );
 }
-export default function () {
+export default Social = () => {
   return (
     <ul className="text-lg font-bold flex flex-wrap text-center gap-4">
       <Link url="https://github.com/mrobit" title="GitHub" />
       <Link url="https://twitter.com/merthh" title="Twitter" />
     </ul>
   );
-}
+};
