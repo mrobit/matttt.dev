@@ -12,7 +12,8 @@ function Link({ url, title }) {
     </li>
   );
 }
-export default Social = () => {
+
+const Social = () => {
   return (
     <ul className="text-lg font-bold flex flex-wrap text-center gap-4">
       <Link url="https://github.com/mrobit" title="GitHub" />
@@ -20,3 +21,7 @@ export default Social = () => {
     </ul>
   );
 };
+
+Social.displayName = "Social navigation";
+
+export default Social;
