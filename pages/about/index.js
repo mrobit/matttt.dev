@@ -22,9 +22,9 @@ export default function About() {
           I am a Partner and the Director of Development at <Link href='https://www.anchour.com'>Anchour</Link> with over 10 years of experience in full stack web development. From using WordPress to build websites for small businesses to developing custom web applications using Laravel and React, I have worked on a wide range of projects and gained valuable experience in the field.
         </p>
 
-        <p>
+        {/* <p>
           Additionally, I provide freelance web development services, building custom websites and web applications for small businesses and individuals. I enjoy working on diverse projects and leveraging my full stack skills to deliver high-quality solutions.
-        </p>
+        </p> */}
       </div>
     </Page>
   )
